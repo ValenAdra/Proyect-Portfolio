@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.contenedor{
+    width: 900px;
+    height: 830px;
+    background-color: rgb(66, 25, 25);
+    margin: 0 auto;
+}
+header{
+    width: 900px;
+    height:40px;
+    background-color:rgb(233, 233, 233);
+    display:flex;
+    justify-content: space-between;
+}
+h1{
+    margin: 1px 20px;
+}
+h2{
+    margin:10px 25px;
+}
+main{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:10px;
+}
+.img img{
+    width:340px;
+    height:195px;
+    border:3px solid rgba(150, 150, 150, 0.938);
+}
+.items_main{
+    width:460px;
+    height:200px;
+    background-color:rgb(243, 243, 243);
+}
+.items_main > p,a{
+    padding:5px;
+    color:black;
+}
+h3{
+    padding:5px;
+    color:white;
+    background-color:rgba(150, 150, 150, 0.938);
+}
+.div_proyectos{
+    width:880px;
+    height:500px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-around;
+    margin-top:10px;
+    
+}
+.proyecto_div{
+    width:250px;
+    height:520px;
+    background-color:rgb(240, 235, 236);
+    margin-top:10px;
+}
+.proyecto_div:nth-child(1) h5{
+    margin-top:53px;
+}
+.proyecto_div:nth-child(2) h5{
+    margin-top:37px;
+}
+.proyecto_div > img{
+    width: 250px;
+    height: 150px;
+}
+.proyecto_div > h4, h5{
+    padding:5px;
+    background-color:rgb(168, 166, 166) ;
+    color: white;
+    font-size: 20px;
+    margin-bottom:5px;
+}
+.proyecto_div > p{
+    font-size:14px;
+    margin:5px;
+}
+img.logos{
+    width: 40px;
+    height: 40px;
+    margin-left:5px;
+}
+a.btn{
+    display:inline-block;
+    text-decoration:none;
+    padding:5px;
+    background-color:rgb(29, 129, 96);
+    color:white;
+    border-radius:10px;
+}
+.btn_lamode{
+    margin:10px 90px;
+}
+.btn_Family{
+    margin:10px 65px;
+}
+.btn_Five{
+    margin:10px 80px;
+}
+footer{
+    width: 900px;
+    height: 50px;
+    background-color:rgb(233, 233, 233);
+    position:absolute;
+    top:820px;
+    text-align:center;
+}
+img.logo-contacto{
+    width:15px;
+    height:15px;
+}
+footer p{
+    margin:5px;
+}
